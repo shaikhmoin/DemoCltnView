@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88978E73268032DF003E12B8 /* ObjItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88978E72268032DF003E12B8 /* ObjItems.swift */; };
+		88978E832680362A003E12B8 /* Realmhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88978E822680362A003E12B8 /* Realmhelper.swift */; };
 		88A90991267EC06E00561A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A90990267EC06E00561A2B /* AppDelegate.swift */; };
 		88A90993267EC06E00561A2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A90992267EC06E00561A2B /* SceneDelegate.swift */; };
 		88A90995267EC06E00561A2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A90994267EC06E00561A2B /* ViewController.swift */; };
@@ -18,9 +20,13 @@
 		88A909AB267EC8DA00561A2B /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A909AA267EC8DA00561A2B /* ShoppingCartViewController.swift */; };
 		88A909C0267ECC0A00561A2B /* ShoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A909BE267ECC0A00561A2B /* ShoppingCartTableViewCell.swift */; };
 		88A909C1267ECC0A00561A2B /* ShoppingCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A909BF267ECC0A00561A2B /* ShoppingCartTableViewCell.xib */; };
+		8C6C4DD5EAB5D2FCB60B90D5 /* Pods_DemoCltnView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D99E55440DA2E24D5945C5 /* Pods_DemoCltnView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61D99E55440DA2E24D5945C5 /* Pods_DemoCltnView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCltnView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88978E72268032DF003E12B8 /* ObjItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjItems.swift; sourceTree = "<group>"; };
+		88978E822680362A003E12B8 /* Realmhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realmhelper.swift; sourceTree = "<group>"; };
 		88A9098D267EC06E00561A2B /* DemoCltnView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCltnView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A90990267EC06E00561A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A90992267EC06E00561A2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +40,8 @@
 		88A909AA267EC8DA00561A2B /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 		88A909BE267ECC0A00561A2B /* ShoppingCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewCell.swift; sourceTree = "<group>"; };
 		88A909BF267ECC0A00561A2B /* ShoppingCartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingCartTableViewCell.xib; sourceTree = "<group>"; };
+		A39F7526E966CE80DD77996E /* Pods-DemoCltnView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCltnView.release.xcconfig"; path = "Target Support Files/Pods-DemoCltnView/Pods-DemoCltnView.release.xcconfig"; sourceTree = "<group>"; };
+		A650FC37DD261447C6EA22EB /* Pods-DemoCltnView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCltnView.debug.xcconfig"; path = "Target Support Files/Pods-DemoCltnView/Pods-DemoCltnView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6C4DD5EAB5D2FCB60B90D5 /* Pods_DemoCltnView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF8C94286FD0F29F2F9B885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A650FC37DD261447C6EA22EB /* Pods-DemoCltnView.debug.xcconfig */,
+				A39F7526E966CE80DD77996E /* Pods-DemoCltnView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88978E71268032BC003E12B8 /* RealmHelper */ = {
+			isa = PBXGroup;
+			children = (
+				88978E72268032DF003E12B8 /* ObjItems.swift */,
+				88978E822680362A003E12B8 /* Realmhelper.swift */,
+			);
+			path = RealmHelper;
+			sourceTree = "<group>";
+		};
 		88A90984267EC06E00561A2B = {
 			isa = PBXGroup;
 			children = (
 				88A9098F267EC06E00561A2B /* DemoCltnView */,
 				88A9098E267EC06E00561A2B /* Products */,
+				0DF8C94286FD0F29F2F9B885 /* Pods */,
+				FA8D43265493E901751C5784 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +95,7 @@
 		88A9098F267EC06E00561A2B /* DemoCltnView */ = {
 			isa = PBXGroup;
 			children = (
+				88978E71268032BC003E12B8 /* RealmHelper */,
 				88A90990267EC06E00561A2B /* AppDelegate.swift */,
 				88A90992267EC06E00561A2B /* SceneDelegate.swift */,
 				88A90994267EC06E00561A2B /* ViewController.swift */,
@@ -82,6 +112,14 @@
 			path = DemoCltnView;
 			sourceTree = "<group>";
 		};
+		FA8D43265493E901751C5784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D99E55440DA2E24D5945C5 /* Pods_DemoCltnView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88A909A1267EC06F00561A2B /* Build configuration list for PBXNativeTarget "DemoCltnView" */;
 			buildPhases = (
+				2A6483017D888C0D2B02FB7D /* [CP] Check Pods Manifest.lock */,
 				88A90989267EC06E00561A2B /* Sources */,
 				88A9098A267EC06E00561A2B /* Frameworks */,
 				88A9098B267EC06E00561A2B /* Resources */,
+				932EAA60FE78EDEE1E5EDEE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +189,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A6483017D888C0D2B02FB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCltnView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932EAA60FE78EDEE1E5EDEE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCltnView/Pods-DemoCltnView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCltnView/Pods-DemoCltnView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoCltnView/Pods-DemoCltnView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88A90989267EC06E00561A2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -156,8 +238,10 @@
 			files = (
 				88A90995267EC06E00561A2B /* ViewController.swift in Sources */,
 				88A90991267EC06E00561A2B /* AppDelegate.swift in Sources */,
+				88978E73268032DF003E12B8 /* ObjItems.swift in Sources */,
 				88A909AB267EC8DA00561A2B /* ShoppingCartViewController.swift in Sources */,
 				88A909C0267ECC0A00561A2B /* ShoppingCartTableViewCell.swift in Sources */,
+				88978E832680362A003E12B8 /* Realmhelper.swift in Sources */,
 				88A90993267EC06E00561A2B /* SceneDelegate.swift in Sources */,
 				88A909A7267EC52F00561A2B /* RelatedprodCollectionViewCell.swift in Sources */,
 			);
@@ -303,6 +387,7 @@
 		};
 		88A909A2267EC06F00561A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A650FC37DD261447C6EA22EB /* Pods-DemoCltnView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +407,7 @@
 		};
 		88A909A3267EC06F00561A2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39F7526E966CE80DD77996E /* Pods-DemoCltnView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
